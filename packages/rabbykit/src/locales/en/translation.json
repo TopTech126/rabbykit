@@ -1,0 +1,37 @@
+{
+  "The following wallets are not installed or in conflict with others": "The following wallets are not available",
+  "No wallet found. The following wallets are not installed or in conflict with others": "No wallet found. The following wallets are not installed or in conflict with others",
+
+  "Requesting Connection": "Requesting Connection",
+  "Connect with": "Connect with {name}",
+  "connecting description": "Check {name} to confirm connect.",
+  "Connect your wallet": "Connect your wallet",
+  "Connect your wallet with": "Connect your wallet with {name}",
+
+  "connect tip": "Connecting your wallet is like “logging in” to Web3 \nSelect your wallet from the options to get started",
+
+  "Connection Successful": "Connection Successful",
+  "Request Cancelled": "Request Canceled",
+  "You canceled the request": "You canceled the request.",
+
+  "Scan with your Mobile wallet": "Scan with your mobile wallet",
+
+  "How to use": "How to use {name}?",
+  "Install the Extension": "Install the Extension",
+  "If you haven't installed": "1. If you haven't installed {name}",
+  "downloaded by clicking the button below": "Download {name} here",
+  "If you already have installed": "2. If you have installed {name}",
+  "Make sure your wallet is enabled and disable other plugin wallets": "Enable {name} extension and disable other browser extension wallets",
+
+  "Powered by RabbyKit": "Powered by RabbyKit",
+
+  "Connect Wallet": "Connect Wallet",
+  "Unable to Connect Wallet": "Unable to Connect Wallet",
+  "Connect x": "Connect {name}",
+  "Copy Dapp URL": "Copy Dapp URL",
+  "unsupported mobile env": "The Dapp cannot connect to wallets in the current web environment. Please use your computer or mobile wallet for full functionality",
+  "disclaimer": "By connecting your wallet you agree to the <a href={termsOfServiceUrl} target=\"_blank\">Terms of Service</a> and <a href={privacyPolicyUrl} target=\"_blank\">Privacy Policy</a>",
+
+  "Select your Mobile Wallet": "Select your Mobile Wallet",
+  "Select your wallet to login": "Select your wallet to login"
+}

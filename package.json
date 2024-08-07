@@ -1,0 +1,41 @@
+{
+  "name": "rabbykit-mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@8.7.6",
+  "engines": {
+    "node": ">=16.8.0",
+    "pnpm": ">=8.7.0",
+    "yarn": ">=999.0.0",
+    "npm": ">=999.0.0"
+  },
+  "scripts": {
+    "dev:doc": "pnpm --filter=\"./site/doc\" dev",
+    "dev:examples": "pnpm --filter=\"./examples/next-wagmi\" dev",
+    "build:doc": "pnpm run build:kit && pnpm --filter=\"./site/doc\" build",
+    "build:examples": "pnpm run build:kit && pnpm --filter=\"./examples/next-wagmi\" build",
+    "dev:kit": "pnpm --filter=rabbykit dev",
+    "build:kit": "pnpm --filter=rabbykit build",
+    "spellcheck": "cspell lint . --no-must-find-files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-dynamic-import-vars": "^2.0.5",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@types/node": "^17.0.31",
+    "rollup": "^3.29.2",
+    "rollup-plugin-dts": "^6.0.2",
+    "rollup-plugin-swc3": "^0.10.1",
+    "rollup-swc-preserve-directives": "^0.5.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cspell": "^7.3.8"
+  }
+}
